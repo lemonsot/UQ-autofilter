@@ -49,8 +49,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'UQ_files')
 
 # Others
 IS_VERIFY = bool(environ.get('IS_VERIFY', False))
-VERIFY2_URL = environ.get('VERIFY2_URL', "")
-VERIFY2_API = environ.get('VERIFY2_API', "")
+VERIFY2_URL = environ.get('VERIFY2_URL', "omegalinks.in")
+VERIFY2_API = environ.get('VERIFY2_API', "0d579f14e443eea095bb71c3b57f23d715dff555")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdisklink.link')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'bb358ebbd63fcf1d62181a186e77ab6664cf436a')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
